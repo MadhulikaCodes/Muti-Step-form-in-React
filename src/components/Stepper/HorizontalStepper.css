@@ -1,0 +1,32 @@
+.conatiner {
+  /* width: 100vw; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  margin-top: 100px;
+  box-shadow: 10px 15px 15px rgba(231, 228, 228, 0.972);
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+h1 {
+  color: rgba(90, 86, 86, 0.614);
+  text-shadow: 5px 5px rgba(231, 228, 228, 0.972);
+}
+
+.stepper {
+  width: 50vw;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

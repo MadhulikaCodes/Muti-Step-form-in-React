@@ -1,0 +1,27 @@
+.confirmationPage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 600px;
+  width: 100%;
+}
+
+.info-group {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 5px 5px whitesmoke;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #333;
+  flex-basis: 40%;
+}
+
+.info-value {
+  font-size: 1em;
+  color: #555;
+}
